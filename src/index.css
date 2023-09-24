@@ -6,4 +6,9 @@
 
 .font-inter {
     font-family: 'Inter', sans-serif;
-  }
+}
+
+.banner-img {
+  background-image: linear-gradient(to bottom, #FFFFFFF2, #FFFFFFF2),
+  url("https://i.ibb.co/mCWYTwL/bg-image.jpg");
+}
