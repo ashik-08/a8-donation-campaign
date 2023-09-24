@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "picture_url": "https://i.ibb.co/MgZ2Xr1/health.jpg",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_col": "#0052FF",
+    "description": "Ensuring access to clean water for children is a fundamental necessity for their well-being and development. There are several critical steps that can be taken to achieve this goal. Governments play a crucial role by investing in clean water infrastructure, ensuring water quality standards are met, and implementing policies that prioritize access to safe drinking water in schools and communities. Additionally, financial assistance programs can be established to support families who may struggle with the costs associated with accessing clean water.",
+    "price": "165.00"
+  },
+  {
+    "id": "2",
+    "picture_url": "https://i.ibb.co/58CXg7V/education.jpg",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_col": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": "300.00"
+  },
+  {
+    "id": "3",
+    "picture_url": "https://i.ibb.co/ZdXTcmw/clothing.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_col": "#79C23F",
+    "description": "A Used Clothing Drive is a compassionate and community-driven initiative aimed at collecting and distributing pre-owned clothing to those in need. This charitable effort serves multiple purposes, benefiting both the recipients and the broader community. During a used clothing drive, individuals, schools, businesses, and organizations come together to donate gently-worn clothing items they no longer need. These items can include clothing for all ages, from children to adults, as well as various types of attire such as shirts, pants, coats, shoes, and accessories.",
+    "price": "120.00"
+  },
+  {
+    "id": "4",
+    "picture_url": "https://i.ibb.co/JCfxSn4/food.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_col": "#F87147",
+    "description": "Better Food for Everyone represents a noble and vital mission that encompasses various facets of improving the quality, accessibility, and sustainability of our food systems. This overarching initiative seeks to address multiple challenges within the realm of nutrition, agriculture, and food distribution to create a healthier, more equitable world for all.",
+    "price": "220.00"
+  },
+  {
+    "id": "5",
+    "picture_url": "https://i.ibb.co/JCfxSn4/food.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_col": "#F87147",
+    "description": "Better Food for Everyone represents a noble and vital mission that encompasses various facets of improving the quality, accessibility, and sustainability of our food systems. This overarching initiative seeks to address multiple challenges within the realm of nutrition, agriculture, and food distribution to create a healthier, more equitable world for all.",
+    "price": "220.00"
+  },
+  {
+    "id": "6",
+    "picture_url": "https://i.ibb.co/ZdXTcmw/clothing.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_col": "#79C23F",
+    "description": "A Used Clothing Drive is a compassionate and community-driven initiative aimed at collecting and distributing pre-owned clothing to those in need. This charitable effort serves multiple purposes, benefiting both the recipients and the broader community. During a used clothing drive, individuals, schools, businesses, and organizations come together to donate gently-worn clothing items they no longer need. These items can include clothing for all ages, from children to adults, as well as various types of attire such as shirts, pants, coats, shoes, and accessories.",
+    "price": "120.00"
+  },
+  {
+    "id": "7",
+    "picture_url": "https://i.ibb.co/58CXg7V/education.jpg",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_col": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": "300.00"
+  },
+  {
+    "id": "8",
+    "picture_url": "https://i.ibb.co/MgZ2Xr1/health.jpg",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_col": "#0052FF",
+    "description": "Ensuring access to clean water for children is a fundamental necessity for their well-being and development. There are several critical steps that can be taken to achieve this goal. Governments play a crucial role by investing in clean water infrastructure, ensuring water quality standards are met, and implementing policies that prioritize access to safe drinking water in schools and communities. Additionally, financial assistance programs can be established to support families who may struggle with the costs associated with accessing clean water.",
+    "price": "165.00"
+  },
+  {
+    "id": "9",
+    "picture_url": "https://i.ibb.co/MgZ2Xr1/health.jpg",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_col": "#0052FF",
+    "description": "Ensuring access to clean water for children is a fundamental necessity for their well-being and development. There are several critical steps that can be taken to achieve this goal. Governments play a crucial role by investing in clean water infrastructure, ensuring water quality standards are met, and implementing policies that prioritize access to safe drinking water in schools and communities. Additionally, financial assistance programs can be established to support families who may struggle with the costs associated with accessing clean water.",
+    "price": "165.00"
+  },
+  {
+    "id": "10",
+    "picture_url": "https://i.ibb.co/58CXg7V/education.jpg",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_col": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": "300.00"
+  },
+  {
+    "id": "11",
+    "picture_url": "https://i.ibb.co/ZdXTcmw/clothing.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_col": "#79C23F",
+    "description": "A Used Clothing Drive is a compassionate and community-driven initiative aimed at collecting and distributing pre-owned clothing to those in need. This charitable effort serves multiple purposes, benefiting both the recipients and the broader community. During a used clothing drive, individuals, schools, businesses, and organizations come together to donate gently-worn clothing items they no longer need. These items can include clothing for all ages, from children to adults, as well as various types of attire such as shirts, pants, coats, shoes, and accessories.",
+    "price": "120.00"
+  },
+  {
+    "id": "12",
+    "picture_url": "https://i.ibb.co/JCfxSn4/food.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_col": "#F87147",
+    "description": "Better Food for Everyone represents a noble and vital mission that encompasses various facets of improving the quality, accessibility, and sustainability of our food systems. This overarching initiative seeks to address multiple challenges within the realm of nutrition, agriculture, and food distribution to create a healthier, more equitable world for all.",
+    "price": "220.00"
+  }
+]
