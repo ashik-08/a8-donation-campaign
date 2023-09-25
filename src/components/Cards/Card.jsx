@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Card = ( {donation} ) => {
 
     const {picture_url, category, title, card_bg, category_bg, text_button_col} = donation;
@@ -13,6 +15,10 @@ const Card = ( {donation} ) => {
             </div>
         </div>
     );
+};
+
+Card.propTypes = {
+    donation: PropTypes.object
 };
 
 export default Card;

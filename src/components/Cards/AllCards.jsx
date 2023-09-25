@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Card from "./Card";
 
 const AllCards = ( {donations} ) => {
@@ -9,6 +10,10 @@ const AllCards = ( {donations} ) => {
             }
         </div>
     );
+};
+
+AllCards.propTypes = {
+    donations: PropTypes.array
 };
 
 export default AllCards;
