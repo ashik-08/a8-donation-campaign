@@ -19,15 +19,16 @@ const router = createBrowserRouter([
       },
       {
         path: "/donation",
-        element: <Home></Home>
+        element: <h2>Donation Page</h2>
       },
       {
         path: "/statistics",
-        element: <Home></Home>
+        element: <h2>Statistics Page</h2>
       }
     ]
   }
 ])
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />

@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="banner-img bg-contain md:bg-cover bg-top md:bg-center bg-no-repeat h-[80vh]">
             <NavBar></NavBar>
-            <Banner></Banner>
+            <Banner className="flex justify-center items-center"></Banner>
         </div>
     );
 };

@@ -1,9 +1,15 @@
-import Home from "../pages/Home/Home";
+import { Outlet, useLocation } from "react-router-dom";
+import NavBar from "../components/Header/NavBar/NavBar";
 
 const MainLayout = () => {
+
+    const loc = useLocation();
+    console.log(loc);
+
     return (
         <div>
-            <Home></Home>
+            <NavBar></NavBar>
+            <Outlet></Outlet>
         </div>
     );
 };
