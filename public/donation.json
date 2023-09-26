@@ -8,7 +8,7 @@
     "card_bg": "#0052FF26",
     "text_button_col": "#0052FF",
     "description": "Ensuring access to clean water for children is a fundamental necessity for their well-being and development. There are several critical steps that can be taken to achieve this goal. Governments play a crucial role by investing in clean water infrastructure, ensuring water quality standards are met, and implementing policies that prioritize access to safe drinking water in schools and communities. Additionally, financial assistance programs can be established to support families who may struggle with the costs associated with accessing clean water.",
-    "price": "165.00"
+    "price": "100"
   },
   {
     "id": "2",
@@ -19,7 +19,7 @@
     "card_bg": "#FF444A26",
     "text_button_col": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": "300.00"
+    "price": "300"
   },
   {
     "id": "3",
@@ -30,7 +30,7 @@
     "card_bg": "#79C23F26",
     "text_button_col": "#79C23F",
     "description": "A Used Clothing Drive is a compassionate and community-driven initiative aimed at collecting and distributing pre-owned clothing to those in need. This charitable effort serves multiple purposes, benefiting both the recipients and the broader community. During a used clothing drive, individuals, schools, businesses, and organizations come together to donate gently-worn clothing items they no longer need. These items can include clothing for all ages, from children to adults, as well as various types of attire such as shirts, pants, coats, shoes, and accessories.",
-    "price": "120.00"
+    "price": "80"
   },
   {
     "id": "4",
@@ -41,94 +41,94 @@
     "card_bg": "#F8714726",
     "text_button_col": "#F87147",
     "description": "Better Food for Everyone represents a noble and vital mission that encompasses various facets of improving the quality, accessibility, and sustainability of our food systems. This overarching initiative seeks to address multiple challenges within the realm of nutrition, agriculture, and food distribution to create a healthier, more equitable world for all.",
-    "price": "220.00"
+    "price": "180"
   },
   {
     "id": "5",
     "picture_url": "https://i.ibb.co/JCfxSn4/food.jpg",
-    "title": "Better Food for Everyone",
+    "title": "Nourishing Meals for Seniors",
     "category": "Food",
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_col": "#F87147",
-    "description": "Better Food for Everyone represents a noble and vital mission that encompasses various facets of improving the quality, accessibility, and sustainability of our food systems. This overarching initiative seeks to address multiple challenges within the realm of nutrition, agriculture, and food distribution to create a healthier, more equitable world for all.",
-    "price": "220.00"
+    "description": "Many senior citizens, especially those living alone or in care facilities, struggle to access nutritious and balanced meals. Your support can provide nourishing meals tailored to their dietary needs, ensuring they receive the essential nutrients to maintain their health and well-being. Together, we can make a meaningful difference in the lives of our senior community members and enhance their quality of life.",
+    "price": "160"
   },
   {
     "id": "6",
     "picture_url": "https://i.ibb.co/ZdXTcmw/clothing.jpg",
-    "title": "Used Clothing Drive",
+    "title": "Professional Attire for Job Seekers",
     "category": "Clothing",
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_col": "#79C23F",
-    "description": "A Used Clothing Drive is a compassionate and community-driven initiative aimed at collecting and distributing pre-owned clothing to those in need. This charitable effort serves multiple purposes, benefiting both the recipients and the broader community. During a used clothing drive, individuals, schools, businesses, and organizations come together to donate gently-worn clothing items they no longer need. These items can include clothing for all ages, from children to adults, as well as various types of attire such as shirts, pants, coats, shoes, and accessories.",
-    "price": "120.00"
+    "description": "Securing stable employment can be a transformative step for individuals striving to break the cycle of poverty. However, many job seekers lack the appropriate professional attire for interviews and work. Your contribution can empower them by providing gently-used professional clothing, boosting their confidence and increasing their chances of finding employment and achieving financial independence. Your donation can help change lives and strengthen communities.",
+    "price": "130"
   },
   {
     "id": "7",
     "picture_url": "https://i.ibb.co/58CXg7V/education.jpg",
-    "title": "Good Education",
+    "title": "Digital Learning Resources",
     "category": "Education",
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_button_col": "#FF444A",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": "300.00"
+    "description": "In today's digital age, access to technology and online resources is crucial for quality education. Many underserved schools lack the necessary tools for digital learning. Your donation can help bridge this gap by providing schools with computers, internet access, and educational software, ensuring that students have the opportunity to learn and thrive in a technology-driven world.",
+    "price": "400"
   },
   {
     "id": "8",
     "picture_url": "https://i.ibb.co/MgZ2Xr1/health.jpg",
-    "title": "Clean Water for Children",
+    "title": "Medical Care for Infants",
     "category": "Health",
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_button_col": "#0052FF",
-    "description": "Ensuring access to clean water for children is a fundamental necessity for their well-being and development. There are several critical steps that can be taken to achieve this goal. Governments play a crucial role by investing in clean water infrastructure, ensuring water quality standards are met, and implementing policies that prioritize access to safe drinking water in schools and communities. Additionally, financial assistance programs can be established to support families who may struggle with the costs associated with accessing clean water.",
-    "price": "165.00"
+    "description": "Every infant deserves a healthy start in life, but for many vulnerable babies, access to proper medical care is a challenge. Your donation can make a significant impact by supporting medical clinics and healthcare professionals who provide crucial services to infants in need. Together, we can ensure that these young lives are given the best possible care and a chance for a brighter future.",
+    "price": "240"
   },
   {
     "id": "9",
     "picture_url": "https://i.ibb.co/MgZ2Xr1/health.jpg",
-    "title": "Clean Water for Children",
+    "title": "Nutritious Meals for Necessitous",
     "category": "Health",
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_button_col": "#0052FF",
-    "description": "Ensuring access to clean water for children is a fundamental necessity for their well-being and development. There are several critical steps that can be taken to achieve this goal. Governments play a crucial role by investing in clean water infrastructure, ensuring water quality standards are met, and implementing policies that prioritize access to safe drinking water in schools and communities. Additionally, financial assistance programs can be established to support families who may struggle with the costs associated with accessing clean water.",
-    "price": "165.00"
+    "description": "Millions of families around the world struggle to provide nutritious meals for their children. Malnutrition can have severe, long-term effects on a child's health and development. Your donation can help us provide essential food supplies and support to underprivileged families, ensuring that children receive the nourishment they need to thrive.",
+    "price": "150"
   },
   {
     "id": "10",
     "picture_url": "https://i.ibb.co/58CXg7V/education.jpg",
-    "title": "Good Education",
+    "title": "Scholarships for Bright Students",
     "category": "Education",
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_button_col": "#FF444A",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": "300.00"
+    "description": "Education should be accessible to all, regardless of financial circumstances. Your support can empower talented and deserving students from disadvantaged backgrounds by offering scholarships that cover tuition fees and educational expenses. By investing in their education, you provide these young minds with the opportunity to fulfill their potential and contribute to a brighter future for themselves and their communities.",
+    "price": "260"
   },
   {
     "id": "11",
     "picture_url": "https://i.ibb.co/ZdXTcmw/clothing.jpg",
-    "title": "Used Clothing Drive",
+    "title": "Winter Wear for Homeless",
     "category": "Clothing",
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_col": "#79C23F",
-    "description": "A Used Clothing Drive is a compassionate and community-driven initiative aimed at collecting and distributing pre-owned clothing to those in need. This charitable effort serves multiple purposes, benefiting both the recipients and the broader community. During a used clothing drive, individuals, schools, businesses, and organizations come together to donate gently-worn clothing items they no longer need. These items can include clothing for all ages, from children to adults, as well as various types of attire such as shirts, pants, coats, shoes, and accessories.",
-    "price": "120.00"
+    "description": "As the cold winter months approach, many homeless individuals and families face the harsh reality of braving freezing temperatures without adequate clothing. Your donation can make a significant impact by providing warm winter wear, such as coats, blankets, and gloves, to those in need. Together, we can help protect vulnerable individuals from the cold and ensure they have the warmth they deserve.",
+    "price": "99"
   },
   {
     "id": "12",
     "picture_url": "https://i.ibb.co/JCfxSn4/food.jpg",
-    "title": "Better Food for Everyone",
+    "title": "Community Gardens",
     "category": "Food",
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_col": "#F87147",
-    "description": "Better Food for Everyone represents a noble and vital mission that encompasses various facets of improving the quality, accessibility, and sustainability of our food systems. This overarching initiative seeks to address multiple challenges within the realm of nutrition, agriculture, and food distribution to create a healthier, more equitable world for all.",
-    "price": "220.00"
+    "description": "Community gardens offer a sustainable solution to food insecurity by empowering communities to grow their own fresh produce. Your donation can help establish and maintain community gardens, providing residents with access to locally grown, healthy food. By supporting these initiatives, we can promote self-sufficiency and food security for families in need, creating a healthier and more resilient community.",
+    "price": "120"
   }
 ]

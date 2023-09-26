@@ -14,7 +14,8 @@ export default {
         "pri-text": "#0B0B0B",
         "place-text": "#757575",
         "spe-text": "#FF444A",
-        "des-text": "#0B0B0BB2"
+        "des-text": "#0B0B0BB2",
+        "overlay-col": "#0B0B0B80"
       },
     },
   },

@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="banner-img bg-contain md:bg-cover bg-top md:bg-center bg-no-repeat h-[45vh] md:h-[80vh]">
+      <div className="banner-img bg-contain lg:bg-cover bg-top lg:bg-center bg-no-repeat h-[45vh] md:h-[80vh]">
         <div className="container mx-auto">
           <NavBar></NavBar>
           <Banner></Banner>
