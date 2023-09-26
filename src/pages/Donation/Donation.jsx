@@ -3,7 +3,7 @@ import NavBar from "../../components/Header/NavBar/NavBar";
 
 const Donation = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <NavBar></NavBar>
             <AllDonationsCard></AllDonationsCard>
         </div>
