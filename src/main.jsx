@@ -7,6 +7,7 @@ import MainLayout from './layout/MainLayout';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Home from './pages/Home/Home';
 import DonationDetails from './pages/DonationDetails/DonationDetails';
+import Donation from './pages/Donation/Donation';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/donation",
-        element: <h2>Donation Page</h2>
+        element: <Donation></Donation>
       },
       {
         path: "/statistics",

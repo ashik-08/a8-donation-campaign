@@ -1,17 +1,49 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import Swal from "sweetalert2";
 
 const DetailsofDonation = ({ detail }) => {
-  const { picture_url, price, text_button_col, title, description } = detail;
+  const { id, picture_url, price, text_button_col, title, description } =
+    detail;
 
-  const handleDonation = () => {
-    Swal.fire({
-      position: "top-end",
-      icon: "success",
-      title: `Thank you for your $${price} donation`,
-      showConfirmButton: false,
-      timer: 1500,
-    });
+  const handleAddDonation = () => {
+    const addedDonationArray = [];
+
+    const addDonation = JSON.parse(localStorage.getItem("donation"));
+
+    if (!addDonation) {
+      addedDonationArray.push(detail);
+      localStorage.setItem("donation", JSON.stringify(addedDonationArray));
+
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: `Thank you for your $${price} donation`,
+        showConfirmButton: false,
+        timer: 1500,
+      });
+    } else {
+      const exist = addDonation.find((donation) => donation.id === id);
+      if (!exist) {
+        addedDonationArray.push(...addDonation, detail);
+        localStorage.setItem("donation", JSON.stringify(addedDonationArray));
+
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `Thank you for your $${price} donation`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
+      } else {
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: `You have already donated !!! Thank You`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
+      }
+    }
   };
 
   return (
@@ -20,7 +52,7 @@ const DetailsofDonation = ({ detail }) => {
         <img className="rounded-lg" src={picture_url} alt="" />
         <div className="absolute bottom-0  w-full h-1/4 md:h-[15%] lg:h-[13%] xl:h-[10%] bg-overlay-col rounded-b-lg">
           <button
-            onClick={handleDonation}
+            onClick={handleAddDonation}
             className="text-white md:text-lg font-semibold rounded px-3 py-1 md:px-5 md:py-2 relative top-[23%] lg:top-[25%] 2xl:top-[30%] left-6 md:left-10"
             style={{ backgroundColor: text_button_col }}
           >
@@ -37,8 +69,8 @@ const DetailsofDonation = ({ detail }) => {
 };
 
 DetailsofDonation.propTypes = {
-    // detail: PropTypes.array
-    detail: PropTypes.object.isRequired
+  // detail: PropTypes.array
+  detail: PropTypes.object.isRequired,
 };
 
 export default DetailsofDonation;
