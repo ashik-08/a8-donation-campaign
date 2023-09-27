@@ -8,6 +8,7 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Home from './pages/Home/Home';
 import DonationDetails from './pages/DonationDetails/DonationDetails';
 import Donation from './pages/Donation/Donation';
+import Statistics from './pages/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <h2>Statistics Page</h2>
+        element: <Statistics></Statistics>
       },
       {
         path: "/donation-details/:id",
