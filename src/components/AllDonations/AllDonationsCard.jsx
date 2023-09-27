@@ -18,7 +18,17 @@ const AllDonationsCard = () => {
 
   return (
     <div className="mt-14 mb-20 lg:mt-20 lg:mb-36">
-        {/* donation card items */}
+      {/* if no donation has been given */}
+      <div>
+        {notFound ? (
+          <p className="h-[60vh] flex justify-center items-center text-2xl md:text-4xl lg:text-5xl font-semibold">
+            {notFound}
+          </p>
+        ) : (
+          ""
+        )}
+      </div>
+      {/* donation card items */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {allDonations &&
           allDonations
@@ -34,12 +44,14 @@ const AllDonationsCard = () => {
       {/* only shows when there are more than 4 donations */}
       <div
         className={
-          dataLength === allDonations.length || allDonations.length <= 4 ? "hidden " : "text-center mt-10"
+          dataLength === allDonations.length || allDonations.length <= 4
+            ? "hidden "
+            : "text-center mt-10"
         }
       >
         <button
           onClick={() => setDataLength(allDonations.length)}
-          className="bg-[#009444] text-white text-lg font-semibold px-5 py-2.5 rounded-lg"
+          className="bg-[#009444] text-white text-lg font-semibold px-6 py-2.5 rounded-lg"
         >
           See All
         </button>
