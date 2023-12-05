@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainLayout from './layout/MainLayout';
-import ErrorPage from './pages/ErrorPage/ErrorPage';
-import Home from './pages/Home/Home';
-import DonationDetails from './pages/DonationDetails/DonationDetails';
-import Donation from './pages/Donation/Donation';
-import Statistics from './pages/Statistics/Statistics';
+import MainLayout from "./layout/MainLayout";
+import ErrorPage from "./pages/ErrorPage/ErrorPage";
+import Home from "./pages/Home/Home";
+import DonationDetails from "./pages/DonationDetails/DonationDetails";
+import Donation from "./pages/Donation/Donation";
+import Statistics from "./pages/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -19,27 +19,27 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('../donation.json')
+        loader: () => fetch("donations_data.json"),
       },
       {
         path: "/donation",
-        element: <Donation></Donation>
+        element: <Donation></Donation>,
       },
       {
         path: "/statistics",
-        element: <Statistics></Statistics>
+        element: <Statistics></Statistics>,
       },
       {
         path: "/donation-details/:id",
         element: <DonationDetails></DonationDetails>,
-        loader: () => fetch('../donation.json')
-      }
-    ]
-  }
-])
+        loader: () => fetch("donations_data.json"),
+      },
+    ],
+  },
+]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
