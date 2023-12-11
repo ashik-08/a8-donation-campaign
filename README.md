@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 - [Donation Campaign Website](https://a8-donation-campaign.surge.sh/)
 
 ## Description
-The Donation Campaign website is a multi-page application built with React, React Router, Tailwind CSS, DaisyUI, and Recharts. Donation data is fetched from a JSON file using an API. Users can tap on donation cards to navigate to detailed donation routes, where they can find a donate button with a fixed amount. Upon donation, the contribution is saved in the local storage and can be accessed on the donation route. Users can view a pie chart on the statistics page, illustrating their donation compared to the total donation. The site is designed to be responsive across various devices.
+The Donation Campaign website is a comprehensive multi-page application developed using React, React Router, Tailwind CSS, DaisyUI, and Recharts. The application fetches donation data from a JSON file via an API. Users can explore detailed donation information by tapping on donation cards, and each donation route includes a donate button with a fixed amount. Donations are stored in local storage, providing users with easy access to their contribution details. The site also features a statistics page with a pie chart illustrating individual donations compared to the total. The website is designed to be responsive, ensuring an optimal viewing experience on various devices.
 
 ## Technology
 - React
@@ -24,13 +24,30 @@ The Donation Campaign website is a multi-page application built with React, Reac
 - Recharts
 
 ## Key Points
-1. Multi-page application for donation campaigns.
-2. Utilizes React, React Router, Tailwind CSS, DaisyUI, and Recharts.
+1. Multi-page application dedicated to donation campaigns.
+2. Utilizes React, React Router, Tailwind CSS, DaisyUI, and Recharts for enhanced functionality.
 3. Donation data fetched from a JSON file using an API.
 4. Local storage for storing and retrieving donation details.
 5. Responsive design for optimal viewing on different devices.
 
 ## Project Features
+
+#### Donation Cards
+- Displays donation cards with summary information.
+
+#### Detailed Donation Routes
+- Allows users to view detailed donation information and make contributions.
+
+#### Local Storage
+- Stores and retrieves donation details for user convenience.
+
+#### Statistics Page
+- Features a pie chart illustrating individual donations compared to the total.
+
+#### Responsive Design
+- Optimized for a seamless experience on different devices.
+
+#### Others
 
 - Unique JSON Data for Donation
 
